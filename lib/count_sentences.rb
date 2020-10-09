@@ -20,7 +20,7 @@ class String
     count = 0;
     strings.each do |item|
       if(item.size > 0)
-        count =+ 1
+        count += 1
       end
     end
   end
