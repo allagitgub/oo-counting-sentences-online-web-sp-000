@@ -23,6 +23,7 @@ class String
         count += 1
       end
     end
+    puts count
     count
   end
 end
