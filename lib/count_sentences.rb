@@ -16,7 +16,6 @@ class String
 
   def count_sentences
     strings = self.split(/[.|?|!]/)
-    binding.pry
     count = 0;
     strings.each do |item|
       if(item.size > 0)
